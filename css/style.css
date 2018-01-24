@@ -1,0 +1,43 @@
+html,body{
+    padding:0;margin:0;
+}
+.dialog{
+    width:350px;
+    height:240px;
+    background: #eee;
+    position:relative;
+    margin:0 auto;
+}
+.shade{
+    position: absolute;
+    top:0;left:0;
+    width:100%;height:100%;
+    background:rgba(0,0,0,.3)
+}
+.dialog-title{
+    height:40px;
+    line-height: 40px;
+    padding-left:10px;
+    border-bottom:1px solid #ccc;
+}
+.dialog-cols{
+    position: absolute;
+    top:5px;right:17px;
+    font-size:24px;
+}
+.conten-main{
+    width:100%;
+    padding-left:10px;
+}
+button{
+    position:absolute;
+    bottom:30px;
+    padding:10px 13px;
+    border-radius: 5px;
+}
+.btnl{
+    left:60px;
+}
+.btnz{
+    right:60px;
+}
